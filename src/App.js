@@ -1,4 +1,5 @@
 import './App.css';
+import CurrencyData from './CurrencyService/CurrencyData';
 
 function App() {
   
@@ -12,6 +13,12 @@ function App() {
     </div>
   );
 }
+
+
+
+
+
+
 
 /*
  <select id="currencyList">

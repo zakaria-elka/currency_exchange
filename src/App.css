@@ -4,7 +4,24 @@
     margin-left: 27%;
     font-family: cursive;
     font-size:40px;
+  
 
 
+}
 
+.Currencyform{
+    height: 20px;
+    width: 50px;
+    position: absolute;
+    left:10px;
+    top:10%;
+}
+
+.App{
+    background-color: #111227;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
 }
