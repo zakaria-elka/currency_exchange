@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <h2 className='title'>Welcom to Currency exchange</h2>
-
+      <CurrencyData/>
     
     </div>
   );
