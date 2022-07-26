@@ -1,6 +1,6 @@
 import React, {useRef} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Form, Card } from 'react-bootstrap';
+import {Form} from 'react-bootstrap';
 import axios from "axios";
 
 
@@ -30,7 +30,7 @@ const CurrencyData=()=>{
     return (
       <div className="Currencyform">
   
-       <Card style={{display:"flex",flexDirection:"row",width:"40%",marginLeft:"28%",marginTop:"15%"}}>
+       <div id="inputform">
        <Form.Control  type="number" min="1" ref={valueRef}  onChange={()=>handledata()}/>
        <select id="currencyList" onChange={()=>handledata()} style={{width:"99%"}} >
     <option value="USD" selected="selected" label="US dollar">USD</option>
@@ -198,9 +198,9 @@ const CurrencyData=()=>{
     <option value="ZMW" label="Zambian kwacha">ZMW</option>
     <option value="ZWB" label="Zimbabwean bonds">ZWB</option>
 </select>
-       </Card>
+       </div>
        
-       <Card style={{display:"flex",flexDirection:"row",width:"40%",marginLeft:"28%",marginTop:"15%"}}>
+       <div id="inputform2">
        <Form.Control id="valueres" type="number" min="0" disabled/>
        <select id="currencyList2"  style={{width:"99%"}}  onChange={()=>handledata()}>
     <option value="USD" label="US dollar">USD</option>
@@ -368,7 +368,7 @@ const CurrencyData=()=>{
     <option value="ZMW" label="Zambian kwacha">ZMW</option>
     <option value="ZWB" label="Zimbabwean bonds">ZWB</option>
 </select>
-       </Card>
+       </div>
        
      
    

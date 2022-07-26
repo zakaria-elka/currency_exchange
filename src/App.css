@@ -29,3 +29,91 @@
     right: 0;
     position: absolute;
 }
+
+#inputform{
+
+    display:flex;
+    flex-direction:row;
+    width:40%;
+    margin-Left:28%;
+    margin-Top:15%;
+
+
+}
+
+#inputform2{
+
+    display:flex;
+    flex-direction:row;
+    width:40%;
+    margin-Left:28%;
+    margin-Top:15%;
+
+
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    
+.Currencyform{
+ 
+    background-color: #dddfd4;
+    box-shadow: 2px 2px #e3e0cf, -2px 0 2px #e3e0cf;
+    border-radius: 1rem;
+    height: 50%;
+    width: 90%;
+    margin-top: 20%;
+    padding-top: 20%;
+    left: 5%;
+   
+    
+}
+
+.title{
+
+    color:beige;
+    margin-left: 27%;
+    font-family: cursive;
+    font-size:20px;
+    margin-top: 10%;
+
+
+}
+
+.App{
+    background-color: #111227;
+    top: 0;
+    left: 0;
+    bottom: -20%;
+    right: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+#inputform{
+
+    display:flex;
+    flex-direction:row;
+    width:80%;
+    margin-Left:10%;
+    margin-Top:15%;
+
+
+}
+
+#inputform2{
+
+    display:flex;
+    flex-direction:row;
+    width:80%;
+    margin-Left:10%;
+    margin-Top:15%;
+
+
+}
+
+
+}
